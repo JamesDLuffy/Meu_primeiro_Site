@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
+    <title>James Turismo</title>
+</head>
+<style>
+    body{
+
+background-color: #62D3D6;
+
+}
+
+header{
+
+background-image: linear-gradient(#C4F1F2, #62D3D6,#9BE8EB, #67D2D6 );
+text-align: center; 
+font-family: Solitreo;
+font-weight: bold;
+font-size: 2em;
+padding-top: 40px;  
+min-height: 150px;
+
+}
+
+header > h1{
+
+text-shadow:2px 2px 1px rgb(13, 13, 13);
+color: white;
+margin-bottom: 0px;
+
+}
+
+    nav{
+    background-image: linear-gradient(#C4F1F2, #62D3D6,#9BE8EB, #67D2D6 );
+
+    padding: 15px;
+     
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+   
+      
+}
+
+nav >a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    transition: .5s;
+   
+    
+}
+
+nav >a:hover{
+    background-color:#D0DCEB;
+    border-radius: 5px;
+}
+
+   {
+    text-shadow:2px 2px 1px rgb(13, 13, 13);
+    color: white;
+    
+    margin-bottom: 0px;
+
+
+   } 
+   input{
+   border: 2px solid red;
+   width: 300px;
+   height: 25px;
+ }
+
+ .pergunta{
+
+    width: 300px;
+   height: 150px;
+
+
+ }
+
+ form{
+
+    text-align: center;
+ }
+
+ div{
+    text-align: center;
+ }
+
+    
+</style>
+<body>
+    <header>
+        <h1>JAMES TURISMO</h1>
+        <p class="slogan">Venha conhecer a melhor empresa <br> de turismo do Brasil!</p>
+    </header>
+
+    <nav>
+        <a href="#">INÍCIO</a>
+        <a href="#">SOBRE NÓS</a>
+        <a href="#">ROTEIROS</a>
+        <a href="#">CADASTRO</a>
+        <a href="#">CONTATO</a>
+    </nav>
+    <main>
+        <div>
+            <h1>Sera uma prazer atender você</h1>
+            <p>Envie sua mensagem que nossa equipe entrara em contato.</p>
+        </div>
+
+        <form>
+            </div> <h4>Nome:</h4>
+                   <input  type="text">
+            
+            <h4>E-mail:</h4>
+                   <input type="email">
+            
+            <h4>Em que podemos ajudar você:</h4>
+                   <input class="pergunta" type="text">
+
+            <h4>Telefone:</h4>
+                   <input type="number">
+                   <br><br>
+            
+                   Estado: <br>
+                
+                <select>
+            <option>SP</option>
+            <option>MG</option>
+            <option>AL</option>
+            <option>BR</option>
+                </select>
+                <br><br><br>
+
+                <input type="submit" name="Enviar">
+        </form>
+
+    </main>
+</body>
+</html>
