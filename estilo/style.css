@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: 8px;
     padding: 0px;
 }
 
@@ -116,18 +116,14 @@ footer{
 .container{
     border: 2px solid red;
     display: flex;
-
+    
    
-   
-   
-
   }
 
 .sueli {
   
     border: 2px solid red;   
-    margin-top: 15px;
-    margin-left: 15px;
+   
     border-radius: 10px;
    
   }
@@ -135,8 +131,7 @@ footer{
   .rosi {
   
     border: 2px solid red;   
-    margin-top: 15px;
-    margin-left: 15px;
+ 
     border-radius: 10px;
  
   }
@@ -144,8 +139,7 @@ footer{
   .jamerson {
   
     border: 2px solid red;   
-    margin-top: 15px;
-    margin-left: 15px;
+  
     border-radius: 10px;
    
   }
@@ -153,10 +147,16 @@ footer{
   .pepe {
   
     border: 2px solid red;   
-    margin-top: 15px;
-    margin-left: 15px;
+    
     border-radius: 10px;
 
+  }
+
+  .texto{
+
+    border: 1px solid white;
+    text-align: justify;
+    background-color: wheat;
   }
   
 
