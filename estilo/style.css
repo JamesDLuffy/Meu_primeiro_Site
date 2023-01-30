@@ -72,6 +72,7 @@ main{
     display: block;
     margin: auto;
     font-family: Solitreo;
+    box-shadow: 2px 2px 0px white;
 
 }
 
@@ -103,14 +104,67 @@ main h2 {
 
 footer{
     text-align: center;
-    padding: 50px;
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #19A4A8;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-top: 20px;
+    margin-bottom: 20PX;
+   
  
-  margin-right:200px ;
-   margin-left: 80px;
-  background-color: white;
 }
+
+.container{
+    border: 2px solid red;
+    display: flex;
+
+   
+   
+   
+
+  }
+
+.sueli {
+  
+    border: 2px solid red;   
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+   
+  }
+
+  .rosi {
+  
+    border: 2px solid red;   
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+ 
+  }
+
+  .jamerson {
+  
+    border: 2px solid red;   
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+   
+  }
+
+  .pepe {
+  
+    border: 2px solid red;   
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+
+  }
+  
+
+  
+ 
+
+  
+
  
 
 
