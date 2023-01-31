@@ -14,6 +14,7 @@ header{
   background-image: linear-gradient(#C4F1F2, #62D3D6,#9BE8EB, #67D2D6 );
     text-align: center; 
     font-family: Solitreo;
+    border-radius: 10px;
     
     padding-top: 10px;
     font-weight: bold;
@@ -40,8 +41,8 @@ nav{
     padding: 15px;
      
     border-radius: 10px;
-    margin-bottom: 5px;
-    margin-top: 0px;
+   
+    
    
       
 }
@@ -52,6 +53,7 @@ nav >a{
     font-weight: bold;
     color: rgb(12, 12, 12);
     transition: .5s;
+    
    
     
 }
@@ -67,8 +69,8 @@ main{
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 5px;
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 320px;
+    max-width: 800px;
     display: block;
     margin: auto;
     font-family: Solitreo;
@@ -94,10 +96,9 @@ main h2 {
 }
 
 .imagem1{
-    min-width: 150px;
-    max-width: 8000px;
+   
     display: block;
-  margin: auto;
+    margin: auto;
     
    
 }
