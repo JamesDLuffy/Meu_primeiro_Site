@@ -116,6 +116,7 @@ footer{
 .container{
     border: 2px solid red;
     display: flex;
+
     
    
   }
@@ -153,10 +154,18 @@ footer{
   }
 
   .texto{
-
+    height: 60px;
     border: 1px solid white;
     text-align: justify;
-    background-color: wheat;
+    padding: 10px;
+    border-radius: 5px;
+   
+  }
+
+  .texto:hover{
+    background-color: #C4F1F2;
+    transition: .3s;
+
   }
   
 
