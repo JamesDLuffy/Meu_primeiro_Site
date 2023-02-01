@@ -5,13 +5,13 @@
 
 body{
 
-    background-image: linear-gradient(#20CCD1, #25EEF5, #23E1E8, #19A4A8);
+    background-image: linear-gradient(#1F447B, #22679A, #1D86B1 );
     
 }
 
 header{
 
-  background-image: linear-gradient(#C4F1F2, #62D3D6,#9BE8EB, #67D2D6 );
+  background-image: linear-gradient(#1F447B, #22679A, #1D86B1, #60B0C8, #BACEDB, #A0C7C1 );
     text-align: center; 
     font-family: Solitreo;
     border-radius: 10px;
@@ -36,7 +36,7 @@ header > h1{
     text-shadow: 2px 2px 0px black;
 }
 nav{
-    background-image: linear-gradient(#C4F1F2, #62D3D6,#9BE8EB, #67D2D6 );
+    background-image: linear-gradient(#1F447B, #22679A, #1D86B1, #60B0C8, #BACEDB, #A0C7C1 );
 
     padding: 15px;
      
@@ -65,7 +65,7 @@ nav >a:hover{
 
 main{
 
-    background-color: #d0dcebbe;
+    background-color: #A0C7C1 ;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 5px;
@@ -105,7 +105,7 @@ main h2 {
 
 footer{
     text-align: center;
-    background-color: #19A4A8;
+    background-color:;
     font-size: 1.3em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     margin-top: 20px;
