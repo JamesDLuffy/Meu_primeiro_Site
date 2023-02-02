@@ -33,7 +33,7 @@ header > h1{
 header p{
     color: white;
     font-family: var(--font-padrao);
-    font-size: 1em;
+    font-size: 0.8em;
    max-width: 600px;
    margin: auto;
    padding-bottom: 50px;   
