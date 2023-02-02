@@ -9,22 +9,25 @@
 <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
     <title>James Turismo</title>
 </head>
+
 <style>
-    body{
 
-background-color: #62D3D6;
+body{
 
+background-color: #22679A;
 }
+
 
 header{
 
-background-image: linear-gradient(#C4F1F2, #62D3D6,#9BE8EB, #67D2D6 );
+background-image: linear-gradient(#1F447B, #22679A, #1D86B1, #60B0C8 );
 text-align: center; 
 font-family: Solitreo;
 font-weight: bold;
 font-size: 2em;
 padding-top: 40px;  
-min-height: 150px;
+height: 300px;
+border-radius: 10px;
 
 }
 
@@ -36,8 +39,13 @@ margin-bottom: 0px;
 
 }
 
+header p{
+    color: white;
+    text-shadow: 2px 2px 0px black;
+}
+
     nav{
-    background-image: linear-gradient(#C4F1F2, #62D3D6,#9BE8EB, #67D2D6 );
+    background-image: linear-gradient(#1F447B, #22679A, #1D86B1, #60B0C8 );
 
     padding: 15px;
      
@@ -72,7 +80,7 @@ nav >a:hover{
 
    } 
    input{
-   border: 2px solid red;
+   border: 1px solid black;
    width: 300px;
    height: 25px;
  }
@@ -83,17 +91,52 @@ nav >a:hover{
    height: 150px;
 
 
+
  }
 
  form{
 
-    text-align: center;
+    text-align: left;
  }
 
  div{
-    text-align: center;
+    text-align: left;
  }
 
+ main{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5px;
+    min-width: 320px;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    font-family: Solitreo;
+    box-shadow: 2px 2px 0px white ;
+    padding: 10px;
+ }
+
+ main h1{
+    font-family: Solitreo;
+ }
+main p {
+    font-family: Solitreo;
+}
+
+main h4 {
+    font-family: Solitreo;
+}
+footer{
+    text-align: center;
+    background-color:;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-top: 20px;
+    margin-bottom: 20PX;
+   
+ 
+}
     
 </style>
 <body>
@@ -103,16 +146,15 @@ nav >a:hover{
     </header>
 
     <nav>
-        <a href="index.html">INÍCIO</a>
-        <a href="#">SOBRE NÓS</a>
-        <a href="#">ROTEIROS</a>
-        <a href="#">CADASTRO</a>
+        <a href="index.html">INÍCIO</a>        
+        <a href="sobrenos.html">SOBRE NÓS</a>
+        <a href="cadastro.html">CADASTRO</a>
         <a href="contato.html">CONTATO</a>
     </nav>
     <main>
         <div>
-            <h1>Sera uma prazer atender você</h1>
-            <p>Envie sua mensagem que nossa equipe entrara em contato.</p>
+            <h1>Cadastre-se no nosso site!</h1>
+           
         </div>
 
         <form>
@@ -132,16 +174,44 @@ nav >a:hover{
                    Estado: <br>
                 
                 <select>
-            <option>SP</option>
-            <option>MG</option>
+            <option>AC</option>
             <option>AL</option>
-            <option>BR</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
                 </select>
                 <br><br><br>
 
-                <input type="submit" name="Enviar">
+                <input type="submit" value="submit " name="Enviar">
         </form>
 
     </main>
+    <footer>
+
+        <p>Site Desenvolvido Por jamerson Balbino</p>
+
+    </footer>
 </body>
 </html>

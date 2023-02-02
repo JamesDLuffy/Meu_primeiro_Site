@@ -5,42 +5,46 @@
 
 body{
 
-    background-image: linear-gradient(#1F447B, #22679A, #1D86B1 );
+    background-image: linear-gradient(#1F447B, #22679A, #1D86B1, #60B0C8  );
     
 }
 
 header{
 
-  background-image: linear-gradient(#1F447B, #22679A, #1D86B1, #60B0C8, #BACEDB, #A0C7C1 );
+  background-image: linear-gradient(#1F447B, #22679A, #1D86B1, #60B0C8 );
     text-align: center; 
     font-family: Solitreo;
     border-radius: 10px;
-    
+    height: 300px;
     padding-top: 10px;
     font-weight: bold;
     font-size: 2em;
+    height: 300px;
 }
 
 header > h1{
 
         text-shadow:2px 2px 1px rgb(13, 13, 13);
-        color: white;
-        
+        color: white;        
         margin-bottom: 0px;
       
 }
+
+
 
 .slogan{
 
     color: white;
     text-shadow: 2px 2px 0px black;
+    
+    display: block;
+    margin: auto;
 }
 nav{
-    background-image: linear-gradient(#1F447B, #22679A, #1D86B1, #60B0C8, #BACEDB, #A0C7C1 );
-
-    padding: 15px;
-     
+    background-image: linear-gradient(#1F447B, #22679A, #1D86B1, #60B0C8  );
+    padding: 15px;     
     border-radius: 10px;
+   
    
     
    
@@ -65,7 +69,7 @@ nav >a:hover{
 
 main{
 
-    background-color: #A0C7C1 ;
+    background-color: white;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 5px;
@@ -74,7 +78,7 @@ main{
     display: block;
     margin: auto;
     font-family: Solitreo;
-    box-shadow: 2px 2px 0px white;
+    box-shadow: 2px 2px white ;
 
 }
 
@@ -115,7 +119,7 @@ footer{
 }
 
 .container{
-    border: 2px solid red;
+ 
     display: flex-box;
    
     
@@ -129,28 +133,28 @@ footer{
      margin-bottom: ;
      margin-top: ;
      margin-right:10px ;
-    border: 2px solid red;      
+         
     border-radius: 10px;
    
   }
 
   .rosi {
   
-    border: 2px solid red;   
+    
     border-radius: 10px;
  
   }
 
   .jamerson {
   
-    border: 2px solid red;   
+    
     border-radius: 10px;
    
   }
 
   .pepe {
   
-    border: 2px solid red;    
+     
     border-radius: 10px;
 
   }
@@ -161,6 +165,7 @@ footer{
     text-align: justify;
     padding: 10px;
     border-radius: 5px;
+    box-shadow: 2px 2px 0px black;
    
   }
 
